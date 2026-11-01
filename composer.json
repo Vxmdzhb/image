@@ -1,0 +1,35 @@
+{
+    "name": "astrx/image",
+    "description": "Validates uploaded images and re-encodes them, dropping their metadata.",
+    "license": "LicenseRef-DoWhatever",
+    "type": "library",
+    "keywords": [
+        "astrx",
+        "no-javascript",
+        "server-rendered"
+    ],
+    "homepage": "https://github.com/Vxmdzhb/image",
+    "require": {
+        "php": ">=8.4",
+        "ext-gd": "*",
+        "astrx/result": "self.version"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "AstrX\\Image\\": ""
+        }
+    },
+    "extra": {
+        "astrx": {
+            "resources": "resources"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Vxmdzhb/result"
+        }
+    ]
+}
